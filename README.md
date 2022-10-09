@@ -1,3 +1,3 @@
-I mainly use github to browse projects I enjoy, as well as to organize things I work on in my freetime!
+I use github to browse projects I enjoy & organize my personal projects.
 
 aliases: Rob, Partayyy, mnfu
