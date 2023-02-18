@@ -3,9 +3,9 @@ import java.util.ArrayList;
 
 class Main {
     public static void main(String[] args) {
+        AboutMe aboutMe = new AboutMe("Rob");
 
-        AboutMe aboutMe = new AboutMe("Rob", "I use github to browse projects I find interesting, and to organize my personal ones!");
-
+        aboutMe.setDescription("I use github to browse projects I find interesting, and to organize my personal ones!");
         aboutMe.addAlias("mnfu");
         aboutMe.addAlias("Partayyy");
 
@@ -21,13 +21,16 @@ class AboutMe {
 
     public AboutMe() {}
 
-    public AboutMe(String newName, String desc) {
+    public AboutMe(String newName) {
         name = newName;
-        description = desc;
     }
 
     public void addAlias(String newAlias) {
         aliases.add(newAlias);
+    }
+
+    public void setDescription(String desc) {
+        description = desc;
     }
 
     public String getName() {
