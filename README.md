@@ -4,7 +4,6 @@ import java.util.ArrayList;
 class Main {
     public static void main(String[] args) {
         AboutMe aboutMe = new AboutMe("Rob");
-
         aboutMe.addAlias("mnfu");
         aboutMe.addAlias("Partayyy");
         aboutMe.setDescription("I use github to browse projects I find interesting, and to organize my personal ones!");
@@ -19,24 +18,12 @@ class AboutMe {
     private String allAliases = "";
     private ArrayList<String> aliases = new ArrayList<>();
 
-    public AboutMe() {}
-
-    public AboutMe(String newName) {
-        name = newName;
-    }
-
-    public void addAlias(String newAlias) {
-        aliases.add(newAlias);
-    }
-
-    public void setDescription(String desc) {
-        description = desc;
-    }
-
-    public String getName() {
-        return name;
-    }
-
+    public AboutMe(String newName) {name = newName;}
+    
+    public void setDescription(String desc) {description = desc;}
+    public void addAlias(String newAlias) {aliases.add(newAlias);}
+    public String getName() {return name;}
+    public String getDescription() {return description;}
     public String getAliases() {
         for (int i = 0; i < aliases.size(); i++) {
             allAliases += aliases.get(i);
@@ -45,10 +32,6 @@ class AboutMe {
             }
         }
         return allAliases;
-    }
-
-    public String getDescription() {
-        return description;
     }
 }
 ```
