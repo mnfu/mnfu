@@ -7,8 +7,6 @@ class Main {
         aboutMe.addAlias("mnfu");
         aboutMe.addAlias("Partayyy");
         aboutMe.setDescription("I use github to browse projects I find interesting, and to organize my personal ones!");
-
-        System.out.println("Name: " + aboutMe.getName() + "\nAliases: " + aboutMe.getAliases() + "\nDescription: " + aboutMe.getDescription());
     }
 }
 
