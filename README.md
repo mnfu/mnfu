@@ -1,8 +1,11 @@
 # Hi there!👋
 **My name is Rob :)**
-- I'm an avid learner 🎓
-- I have a wonderful lab named pebbles! 🐾
-- I mainly use github to browse my favorite projects, and manage my own 🗄️
+
+🎓 I'm an avid learner
+
+🐾 I have a wonderful lab named pebbles!
+
+🧭 I mainly use github to browse my favorite projects, and manage my own
 
 ## Active Projects 🔨
 
