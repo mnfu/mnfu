@@ -1,35 +1,15 @@
-```java
-import java.util.ArrayList;
+# Hi there!👋
+**My name is Rob :)**
+- I'm an avid learner 🎓
+- I have a wonderful lab named pebbles! 🐾
+- I mainly use github to browse my favorite projects, and manage my own 🗄️
 
-class Main {
-    public static void main(String[] args) {
-        AboutMe aboutMe = new AboutMe("Rob");
-        aboutMe.addAlias("mnfu");
-        aboutMe.addAlias("Partayyy");
-        aboutMe.setDescription("I use github to browse projects I find interesting, and to organize my personal ones!");
-    }
-}
+## Active Projects 🔨
 
-class AboutMe {
-    private String name = "";
-    private String description = "";
-    private String allAliases = "";
-    private ArrayList<String> aliases = new ArrayList<>();
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mnfu&repo=Avience&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/mnfu/Avience)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mnfu&repo=simple-warden&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/mnfu/simple-warden)
 
-    public AboutMe(String newName) {name = newName;}
-    
-    public void setDescription(String desc) {description = desc;}
-    public void addAlias(String newAlias) {aliases.add(newAlias);}
-    public String getName() {return name;}
-    public String getDescription() {return description;}
-    public String getAliases() {
-        for (int i = 0; i < aliases.size(); i++) {
-            allAliases += aliases.get(i);
-            if(i + 1 < aliases.size()) {
-                allAliases += ", ";
-            }
-        }
-        return allAliases;
-    }
-}
-```
+## Stats 🗒️
+![Rob's GitHub stats](https://github-readme-stats.vercel.app/api/?username=mnfu&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mnfu&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
